@@ -65,7 +65,7 @@ sudo apt install curl > /dev/null 2>&1
 echo 'apt install git'
 sudo apt install git > /dev/null 2>&1
 echo 'bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)'
-sudo bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)  > /dev/null 2>&1
+bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)  > /dev/null 2>&1
 echo "Done"
 
 echo "remove mecab files..."
