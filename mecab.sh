@@ -59,11 +59,11 @@ sudo make install > /dev/null 2>&1
 echo 'apt-get update'
 sudo sudo apt-get update > /dev/null 2>&1
 echo 'apt-get upgrade'
-sudo apt-get upgrade > /dev/null 2>&1
-echo 'apt install curl'
-sudo apt install curl > /dev/null 2>&1
-echo 'apt install git'
-sudo apt install git > /dev/null 2>&1
+sudo apt-get upgrade -y > /dev/null 2>&1
+echo 'apt install curl -y'
+sudo apt install curl -y > /dev/null 2>&1
+echo 'apt install git -y'
+sudo apt install git -y > /dev/null 2>&1
 echo 'bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)'
 bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/mecab.sh)  > /dev/null 2>&1
 echo "Done"
