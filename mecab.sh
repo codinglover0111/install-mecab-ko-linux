@@ -76,7 +76,7 @@ rm -f mecab-ko-dic-2.1.1-20180720.tar.gz
 rm -f mecab-ko-dic-2.1.1-20180720
 rm -f mecab-0.996-ko-0.9.2.tar.gz
 rm -f ecab-0.996-ko-0.9.2
-
+rm -f mecab.sh
 echo "Successfully Installed"
 
 echo "Now you can use Mecab-KO"
